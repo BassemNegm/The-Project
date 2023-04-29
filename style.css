@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	box-sizing: inherit;
+}
+
+img {
+    width: 40%;
+    height: 250px;
+    padding-top: 2%;
+    margin: auto 30%;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    width: 98%;
+    justify-content:space-evenly;
+    padding: 2% 1% 2% 1%;
+    background-color:#FAC0BE;
+}
+nav a {
+	text-decoration:none;
+	color: #443601;
+    font-size: large;
+    font-weight:480;
+}
+.nav-links input[type=text] {
+    border: none;
+    padding: 0% 0% 0% 0%;
+    margin-right: 16px;
+    font-size: 17px;
+    font-weight: 400;
+}
+nav a:hover {
+	color: #ffffff;
+    text-decoration: underline;
+}
+hr {
+	height: 1px;
+	background-color: black;
+	border: none;
+}
+h1 {
+   display: flex;
+   background-color: #ACAD84;
+   justify-content: center;
+
+   margin-bottom: 2%;
+}
+.first {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+	background-color: rgb(250, 251, 216);
+    padding-top: 2%;
+}
+.firstimg {
+    width: 50%;
+    height: 450px;
+    margin: auto 5%;
+    border-radius: 1rem;
+}
+.firstimg:hover {
+	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.firstpar {
+    font-weight: 400;
+    color: #443601;
+    letter-spacing: 0.1rem;
+    
+}
+.first .firstbutton {
+    background-color: #AD84A9;
+    border: none;
+    align-items: end;
+    width: 150px;
+    height: 50px;
+    border-radius: 1rem;
+    font-weight: 500;
+    font-size: large;
+    color: whitesmoke;
+    margin-left: 60%;
+}
+.firstbutton:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.first-grid {
+	display: grid;
+    grid-template-rows: 52% 56%;
+	gap: 3rem;
+}
+.second {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+	background-color: #DAFDCD;
+    padding-top: 2%;
+}
+.secondimg {
+    width: 50%;
+    height: 450px;
+    margin: auto 5%;
+    border-radius: 1rem;
+}
+.secondimg:hover {
+	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.secondpar {
+    font-weight: 400;
+    color: #443601;
+    letter-spacing: 0.1rem;
+
+}
+.second .secondbutton {
+    background-color: #353D32;
+    border: none;
+    align-items: end;
+    width: 150px;
+    height: 50px;
+    border-radius: 1rem;
+    font-weight: 500;
+    font-size: large;
+    color: whitesmoke;
+    margin-left: 60%;
+}
+.secondbutton:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.second-grid {
+	display: grid;
+    grid-template-rows: 52% 56%;
+	gap: 3rem;
+}
+
+.third {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+	background-color: #F7FB8C;
+    padding-top: 2%;
+}
+.thirdimg {
+    width: 50%;
+    height: 450px;
+    margin: auto 5%;
+    border-radius: 1rem;
+}
+.thirdimg:hover {
+	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.thirdpar {
+    font-weight: 400;
+    color: #443601;
+    letter-spacing: 0.1rem;
+    
+}
+.third .thirdbutton {
+    background-color: #797A45;
+    border: none;
+    align-items: end;
+    width: 150px;
+    height: 50px;
+    border-radius: 1rem;
+    font-weight: 500;
+    font-size: large;
+    color: whitesmoke;
+    margin-left: 60%;
+}
+.thirdbutton:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.third-grid {
+	display: grid;
+    grid-template-rows: 52% 56%;
+	gap: 3rem;
+}
+.firstline {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    justify-content: center;
+    gap: 10px 30px;
+}
+h3 {
+    display: flex;
+    align-items: end;
+}
+#box {
+    width: 54.5%;
+    height: 100px;
+    margin: 1% 22.7%;
+    font-size: 100;
+    color: grey;
+}
+.submitform {
+    background-color: #519295;
+    border: white;
+    align-items: end;
+    width: 150px;
+    height: 50px;
+    border-radius: 1rem;
+    font-weight: 500;
+    font-size: large;
+    color: whitesmoke;
+    margin-left: 67%;
+}
+.submitform:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 250px;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+    line-break: loose;
+    margin-top: 1%;
+    background-color: #f8f9a8;
+}
+.col1 {
+    background-color: #AD6D6C;
+    color: white;
+    padding: 10%;
+}
+.col2 {
+    background-color: #AD6D6C;
+    color: white;
+    padding: 10%;
+}
+.col3 {
+    background-color: #AD6D6C;
+    color: white;
+    padding: 10%;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1%;
+    background-color: #AD6D6C;
+    margin: 1% 1% 1% 1%;
+    padding: 1%;
+    color: white;
+}
+.about {
+    /*padding-top: 5%;
+    display: flex;*/
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.about img {
+    width: 100%;
+    margin: 0%;
+    height: 60%;
+}
+.about p {
+    text-align: center;
+    width: 65%;
+    margin: auto 28%;
+    position: absolute;
+    top: 20%;
+    right: 20%
+    transform translate(-50%, -50%);
+    font-weight: 400;
+    font-size:xx-large;
+}
+.footer {
+    background-color: #ACAD84;
+    padding-bottom: 1%;
+}
+.lineone {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+.lineone a {
+    text-decoration:none;
+	color: #443601;
+    font-size: small;
+}
+.lineone a:hover {
+    text-decoration: underline;
+}
+.last {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.last a {
+    color: black;
+}
+.last a:hover {
+    color: blue;
+}
+.sub {
+    display: flex;
+    justify-content: center;
+}
+.sub .Subsrcibe:hover {
+    cursor: pointer;
+}
